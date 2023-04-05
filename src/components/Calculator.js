@@ -2,7 +2,6 @@ import { useState } from 'react';
 import calculate from '../logic/calculate';
 
 const Calc = () => {
-
   const [result, setResult] = useState({ total: null, operation: null, next: null });
   const onClickHandler = (e) => {
     setResult(calculate(result, e.target.innerHTML));

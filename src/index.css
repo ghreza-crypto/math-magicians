@@ -25,6 +25,7 @@ code {
     'Courier New',
     monospace;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -87,4 +88,3 @@ code {
 .calcContainer {
   width: 50%;
 }
-
