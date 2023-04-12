@@ -124,3 +124,9 @@ nav ul li a {
   border-radius: 10%;
   padding: 0.3rem;
 }
+
+.pageContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
