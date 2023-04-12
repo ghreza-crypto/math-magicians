@@ -51,7 +51,7 @@ const Quote = () => {
   }
 
   return (
-    <div>
+    <div className="quoteContainer">
       <h2>Quote:</h2>
       <p>
         &quot;

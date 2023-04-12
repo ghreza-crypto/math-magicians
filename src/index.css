@@ -14,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d1d1d1;
 }
 
 code {
@@ -31,8 +32,6 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
-  padding: 2rem;
 }
 
 .result,
@@ -89,4 +88,45 @@ code {
 
 .calcContainer {
   width: 50%;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #acadb8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.homeContainer {
+  padding: 5rem;
+}
+
+.quoteContainer {
+  padding: 5rem;
+}
+
+.active {
+  background-color: rgb(141, 145, 148);
+  color: white;
+  border-radius: 10%;
+  padding: 0.3rem;
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
